@@ -19,6 +19,8 @@ Contributions and feedback from teams using other agents are welcome.
 2. Choose "Create a new repository"
 3. Name your project and select visibility
 
+> **Note:** GitHub may briefly show a 404 after redirect. Refresh if needed—the repo is being provisioned.
+
 **Via CLI:**
 ```bash
 gh repo create my-project --template AeyeOps/agentic-project-template --public
