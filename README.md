@@ -10,12 +10,34 @@ This template is an [AeyeOps](https://github.com/AeyeOps) initiative, distilling
 
 Contributions and feedback from teams using other agents are welcome.
 
-## Quick Start
+## Usage
 
-1. Use this template to create a new repository
-2. Update `CLAUDE.md` with your project overview and key decisions
-3. Rename `CLAUDE.md` files if your tooling uses different conventions
-4. Start adding content to the appropriate directories
+### Create a New Project
+
+**Via GitHub UI:**
+1. Click the green "Use this template" button above
+2. Choose "Create a new repository"
+3. Name your project and select visibility
+
+**Via CLI:**
+```bash
+gh repo create my-project --template AeyeOps/agentic-project-template --public
+cd my-project
+```
+
+**Manual clone (without GitHub):**
+```bash
+git clone --depth 1 https://github.com/AeyeOps/agentic-project-template.git my-project
+cd my-project
+rm -rf .git
+git init
+```
+
+### After Creating
+
+1. Update `CLAUDE.md` with your project overview and key decisions
+2. Rename `CLAUDE.md` files if your tooling uses different conventions
+3. Start adding content to the appropriate directories
 
 ## Structure
 
